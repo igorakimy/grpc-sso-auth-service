@@ -1,0 +1,15 @@
+env: "dev" # dev, prod, local
+
+token_ttl: 1h
+
+grpc:
+  port: 50051
+  timeout: 10s
+
+db:
+  host: localhost
+  port: 54321
+  name: postgres
+  username: postgres
+  password: postgres
+  dsn: "host=localhost port=54321 dbname=postgres user=postgres password=postgres sslmode=disable"
